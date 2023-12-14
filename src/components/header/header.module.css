@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    background-color: #1E2026;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 20px 20px 0;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    transition: color 200ms ease-in;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+.item:hover{
+    color: #FFD073;
+}
+
+.item a.active {
+    color: #FFBF40;
+}

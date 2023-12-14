@@ -1,0 +1,29 @@
+.info img {
+    width: 100px;
+    border-radius: 100px;
+    border: 3px solid #34363B;
+    box-shadow: 0 0 7px #4A4C51;
+}
+
+.info img:hover{
+    color: #000000;
+    box-shadow: 0 0 10px #FFBF40, 0 0 40px #FFD073;
+}
+
+.info {
+    display: block;
+    width: 33%;
+}
+
+@media (max-width: 750px) {
+    .info {
+        flex-grow: 1;
+        width: 40%;
+    }
+}
+@media (max-width: 350px) {
+    .info {
+        padding-bottom: 10px;
+        width: 100%;
+    }
+}

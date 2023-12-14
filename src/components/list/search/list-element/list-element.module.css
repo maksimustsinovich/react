@@ -1,0 +1,30 @@
+.scammer img {
+    height: 350px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px black;
+}
+
+.scammer img:hover {
+    box-shadow: 0 0 10px #8c6700, 0 0 20px black;
+}
+
+@media (max-width: 1400px) {
+    .scammer {
+        width: 270px;
+        margin-bottom: 20px;
+    }
+    .scammer img{
+        margin-bottom: 5px;
+        width: 270px;
+    }
+}
+
+@media (max-width: 600px) {
+    .scammer {
+        margin: 0 auto 20px auto;
+    }
+    .scammer img{
+        height: auto;
+
+    }
+}

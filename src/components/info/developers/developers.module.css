@@ -1,0 +1,27 @@
+.wrapper h1 {
+    text-align: center;
+}
+
+.wrapper {
+    padding-top: 20px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align-last: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    margin: 0 auto;
+    background: #1E2026;
+    color: white;
+}
+
+@media (max-width: 1920px) {
+    .list {
+        height: auto;
+        width: 100%;
+    }
+}

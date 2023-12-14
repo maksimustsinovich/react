@@ -1,0 +1,18 @@
+.scammers {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+@media (max-width: 1400px) {
+    .scammers {
+       flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .scammers {
+        display: block;
+    }
+}
