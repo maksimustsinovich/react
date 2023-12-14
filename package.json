@@ -2,7 +2,7 @@
   "name": "2lab",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://6e3umhaji.github.io/",
+  "homepage": "https://maksimustsinovich.github.io/react/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -33,7 +33,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "react-scripts build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
